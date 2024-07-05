@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.backgraound-imag{
+    background-image: linear-gradient(rgba(0,0,0,0.812),rgba(0,0,0,0.669)),url("/images/james-harrison-vpOeXr5wmR4-unsplash.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+h2{
+    text-align: center;
+}
+label{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(240, 238, 237);
+}
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+input:hover{
+    width:320px ;
+    transition: .3s ease-in-out;
+}
+input[type=submit]:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: .5s ease-in-out;
+}
+.frm{
+    width: 420px;
+    background-color: rgba(102, 110, 110,0.6);
+    text-align: center;
+    padding: 30px 0px;
+    margin: 30px auto;
+    min-height: 60vh;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    margin-top: 30px;
+}
